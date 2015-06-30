@@ -26,13 +26,5 @@ for word in wordsfile:
 	f = open("Output.txt",'r')
 	
 	for line in f:
-	#flag=1
-	#while(flag):
-		#line = f.read(1)
 		if re.search(curr_word,line):
 			print(line)
-			break
-
-			#print (type(site))
-			#print (site)
-            		#print(curr_word, " Present in", curr_link)
